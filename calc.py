@@ -1,24 +1,13 @@
-# Simple Calculator (Only Multiply and Divide)
-def multiply(x, y):
-    return x * y
-
+# Simple Calculator (Only Division)
 def divide(x, y):
     if y == 0:
         return "Cannot divide by zero!"
     return x / y
 
-print("Simple Calculator")
-print("1. Multiply\n2. Divide")
+print("Simple Calculator - Division Only")
 
-choice = input("Enter choice (1/2): ")
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
-if choice in ('1', '2'):
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
-
-    if choice == '1':
-        print("Result:", multiply(num1, num2))
-    elif choice == '2':
-        print("Result:", divide(num1, num2))
-else:
-    print("Invalid input")
+result = divide(num1, num2)
+print("Result:", result)
