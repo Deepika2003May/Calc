@@ -6,8 +6,8 @@ def divide(x, y):
 
 print("Simple Calculator - Division Only")
 
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+First1 = float(input("Enter first number: "))
+Second2 = float(input("Enter second number: "))
 
 result = divide(num1, num2)
 print("Result:", result)
