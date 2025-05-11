@@ -9,5 +9,5 @@ print("Simple Calculator - Division Only")
 First1 = float(input("Enter first number: "))
 Second2 = float(input("Enter second number: "))
 
-result = divide(num1, num2)
+result = divide(First1, Second2)
 print("Result:", result)
